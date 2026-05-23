@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\ZIVPO_PR.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\ZIVPO_PR.dir/objects.a @CMakeFiles\ZIVPO_PR.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\ZIVPO_PR.dir/objects.a -Wl,--no-whole-archive -o ZIVPO_PR.exe -Wl,--out-implib,libZIVPO_PR.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ZIVPO_PR.dir\linkLibs.rsp
